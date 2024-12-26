@@ -1,0 +1,2 @@
+# docs
+Fehujs official documentation
