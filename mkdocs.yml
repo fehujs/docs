@@ -1,0 +1,121 @@
+site_name: Fehujs docs
+site_url: https://fehujs.github.io/docs
+site_author: Pascal LLEONART
+site_description: >-
+  Fehujs is a backend framework built with TypeScript for NodeJS. Its main principle is limiting external
+  dependencies.
+
+repo_url: https://github.com/fehujs
+repo_name: fehujs
+
+copyright: Copyright &copy; 2024-present Pascal LLEONART
+
+theme:
+  name: material
+  logo: assets/fehu.png
+  favicon: assets/fehu-without-bg.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    primary: white
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/fehujs
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/plleonart.bsky.social
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+nav:
+  - Introduction:
+    - Home: index.md
+    - Get started: get-started.md
+    - Templates: templates.md
+  - Modules:
+    - Auth:
+      - Auth: modules/auth/index.md
+      - modules/auth/models-and-migrations.md
+      - modules/auth/user-registration.md
+      - modules/auth/user-login.md
+      - modules/auth/user-logout.md
+      - modules/auth/middleware-and-protecting-routes.md
+    - Build:
+      - Build: modules/build/index.md
+      - modules/build/usage.md
+    - create-fehu-app:
+      - create-fehu-app: modules/create-fehu-app/index.md
+    - CSRF shield:
+      - CSRF shield: modules/csrf-shield/index.md
+      - modules/csrf-shield/protect-routes.md
+    - Database:
+      - Database: modules/database/index.md
+      - modules/database/migrations.md
+      - modules/database/models.md
+      - modules/database/seeders.md
+      - modules/database/provider-api.md
+    - Fcli:
+      - Fcli: modules/fcli/index.md
+    - Helpers:
+      - Helpers: modules/helpers/index.md
+      - modules/helpers/files.md
+      - modules/helpers/parsing.md
+      - modules/helpers/id-generation.md
+    - HTTP server:
+      - HTTP server: modules/http-server/index.md
+      - modules/http-server/routing.md
+      - modules/http-server/http-context.md
+      - modules/http-server/cookies.md
+      - modules/http-server/middlewares.md
+      - modules/http-server/assets.md
+      - modules/http-server/https.md
+      - modules/http-server/router.md
+      - modules/http-server/server.md
+    - IOC:
+      - IOC: modules/ioc/index.md
+      - modules/ioc/dependency-injection.md
+    - Sessions:
+      - Sessions: modules/sessions/index.md
+      - modules/sessions/session-id.md
+    - Template parser:
+      - Template parser: modules/template-parser/index.md
+      - modules/template-parser/demonstration.md
+      - modules/template-parser/reference.md
+      - modules/template-parser/block-reference.md
+      - modules/template-parser/contribute.md
+    - TSConfig:
+      - TSConfig: modules/tsconfig/index.md
+      - modules/tsconfig/config.md
+    - Validator:
+      - Validator: modules/validator/index.md
+      - modules/validator/usage.md
+      - modules/validator/custom-rules.md
+  - Contribute:
+    - contribute/index.md
+    - contribute/module-development.md
