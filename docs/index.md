@@ -26,6 +26,7 @@ The project is organized of many different modules that are designed to be the m
 - [@fehujs/helpers](https://github.com/fehujs/helpers): Fehujs utilitaries (contains file handling, parsing helpers, and id generation)
 - [@fehujs/http-server](https://github.com/fehujs/http-server): HTTP server for fehujs projects
 - [@fehujs/ioc](https://github.com/fehujs/ioc): IoC container / dependency injection module for fehujs project
+- [@fehujs/jeran](https://github.com/fehujs/jeran): Fehujs apps command launcher
 - [@fehujs/sessions](https://github.com/fehujs/sessions): Fehujs sessions handling package (only handles session ids yet)
 - [@fehujs/template-parser](https://github.com/fehujs/template-parser): Small template parser
 - [@fehujs/validator](https://github.com/fehujs/validator): Object validator for requests

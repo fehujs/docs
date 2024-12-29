@@ -100,6 +100,9 @@ nav:
     - IOC:
       - IOC: modules/ioc/index.md
       - modules/ioc/dependency-injection.md
+    - jeran:
+      - Jeran: modules/jeran/index.md
+      - modules/jeran/reference.md
     - Sessions:
       - Sessions: modules/sessions/index.md
       - modules/sessions/session-id.md
