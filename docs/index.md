@@ -1,3 +1,7 @@
+<div style="width: 100%;display:flex;justify-content: center">
+    <img alt="Fehujs" src="https://raw.githubusercontent.com/fehujs/logos/refs/heads/main/fehu-banner.png" />
+</div>
+
 # Fehujs documentation
 
 Welcome on the official documentation website of fehujs.
