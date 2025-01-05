@@ -69,8 +69,9 @@ nav:
     - Build:
       - Build: modules/build/index.md
       - modules/build/usage.md
-    - create-fehu-app:
-      - create-fehu-app: modules/create-fehu-app/index.md
+    - create-fehujs-app:
+      - create-fehujs-app: modules/create-fehujs-app/index.md
+      - modules/create-fehujs-app/usage.md
     - CSRF shield:
       - CSRF shield: modules/csrf-shield/index.md
       - modules/csrf-shield/protect-routes.md
@@ -80,8 +81,6 @@ nav:
       - modules/database/models.md
       - modules/database/seeders.md
       - modules/database/provider-api.md
-    - Fcli:
-      - Fcli: modules/fcli/index.md
     - Helpers:
       - Helpers: modules/helpers/index.md
       - modules/helpers/files.md
@@ -100,7 +99,7 @@ nav:
     - IOC:
       - IOC: modules/ioc/index.md
       - modules/ioc/dependency-injection.md
-    - jeran:
+    - Jeran:
       - Jeran: modules/jeran/index.md
       - modules/jeran/reference.md
     - Sessions:

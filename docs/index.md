@@ -18,11 +18,10 @@ The project is organized of many different modules that are designed to be the m
 
 ### Modules
 
-- [create-fehu-app](https://github.com/fehujs/create-fehu-app): create fehu app module
+- [create-fehujs-app](https://github.com/fehujs/create-fehujs-app): create fehu app module
 - [@fehujs/auth](https://github.com/fehujs/auth): User authentication build-in module for Fehujs apps
 - [@fehujs/csrf-shield](https://github.com/fehujs/csrf-shield): CSRF protection module
 - [@fehujs/database](https://github.com/fehujs/database): Fehujs database package
-- [@fehujs/fcli](https://github.com/fehujs/fcli): Fehujs script runner
 - [@fehujs/helpers](https://github.com/fehujs/helpers): Fehujs utilitaries (contains file handling, parsing helpers, and id generation)
 - [@fehujs/http-server](https://github.com/fehujs/http-server): HTTP server for fehujs projects
 - [@fehujs/ioc](https://github.com/fehujs/ioc): IoC container / dependency injection module for fehujs project
